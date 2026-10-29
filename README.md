@@ -14,6 +14,7 @@ ZayVexa با هدف ساخت یک شبکهٔ کوچک و پایدار شامل L
 - [نمای کلی معماری شبکه](docs/architecture/network-overview-fa.md)
 - [ماتریس بررسی پلاگین‌ها](docs/planning/plugin-matrix-fa.md)
 - [نقشهٔ راه](docs/roadmap-fa.md)
+- [مرکز اطلاعات یکپارچهٔ پروژه](docs/project-hub-fa/README.md)
 - [راهنمای مشارکت](CONTRIBUTING_FA.md)
 
 ## ساختار مخزن
@@ -26,6 +27,7 @@ ZayVexa با هدف ساخت یک شبکهٔ کوچک و پایدار شامل L
 │   ├── architecture/         # معماری پیشنهادی شبکه
 │   ├── decisions/            # تصمیم‌های فنی ثبت‌شده
 │   ├── planning/             # ارزیابی و انتخاب پلاگین‌ها
+│   ├── project-hub-fa/       # مرکز یکپارچهٔ وضعیت، تصمیم‌ها و کارهای پروژه
 │   └── roadmap-fa.md         # مراحل توسعه
 ├── lobby/
 │   ├── datapacks/
