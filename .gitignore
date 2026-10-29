@@ -1,0 +1,37 @@
+# Minecraft worlds and local saves
+**/saves/
+**/world/
+**/world_nether/
+**/world_the_end/
+**/backups/
+**/logs/
+**/crash-reports/
+
+# Server runtime files (keep configuration examples tracked)
+server.jar
+paper-*.jar
+velocity-*.jar
+*.log
+*.lck
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+credentials/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives and generated exports
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
