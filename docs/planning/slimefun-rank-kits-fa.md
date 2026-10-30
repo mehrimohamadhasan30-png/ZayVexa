@@ -1,6 +1,6 @@
 # کیت‌های کامل رنک‌های ZAYVEXA
 
-**نسخه سند:** 1.0  
+**نسخه سند:** 1.1  
 **بازی هدف:** Minecraft Java 1.20.1  
 **وضعیت:** طرح کیت‌ها برای بازبینی و تست؛ هنوز به معنی نصب افزونه‌ها یا تأیید سازگاری همه آیتم‌ها نیست.  
 **ترتیب رنک‌ها:** Member → Neon → Cyber → Overdrive → Singularity → Sponsor
@@ -21,40 +21,67 @@
 
 این بخش به همه کیت‌ها اضافه می‌شود و در هر رنک ارتقا پیدا می‌کند.
 
-## زره
+## زره، سلاح‌ها و ابزارهای کامل هر رنک
 
-| رنک | مجموعه زره | انچنت پیشنهادی روی هر قطعه |
-|---|---|---|
-| Member | Netherite Armor کامل | Protection IV, Unbreaking III, Mending |
-| Neon | Netherite Armor کامل | Protection V, Unbreaking IV, Mending |
-| Cyber | Netherite Armor کامل | Protection VI, Unbreaking V, Mending |
-| Overdrive | Netherite Armor کامل | Protection VII, Unbreaking VI, Mending |
-| Singularity | Infinity Expansion: Infinity Crown, Infinity Chestplate, Infinity Leggings, Infinity Boots | Protection VIII, Unbreaking VIII, Mending |
-| Sponsor | Infinity Expansion: Infinity Crown, Infinity Chestplate, Infinity Leggings, Infinity Boots | Protection IX, Unbreaking IX, Mending |
+این تجهیزات در **تمام شش کیت** وجود دارند. سطح انچنت‌های قابل‌ارتقا برای همه وسایل، طبق جدول رتبه‌بندی پایین تعیین می‌شود؛ یعنی فقط Efficiency بالا نمی‌رود، بلکه تمام انچنت‌های سطح‌دارِ هر زره، سلاح و ابزار با رنک قوی‌تر می‌شوند.
 
-**یادداشت تعادل:** Protection بالاتر از IV و Unbreaking بالاتر از III از سقف عادی انچنت در وانیلا فراتر می‌رود. این سطوح فقط در صورت پشتیبانی روش اعطای آیتم و تست واقعی روی Paper 1.20.1 قابل استفاده‌اند. اگر تست ناموفق بود، سطح مجاز وانیلا جایگزین می‌شود.
+### مقیاس واحد انچنت‌ها
 
-## ابزارهای عمومی
+| رنک | سطح تمام انچنت‌های قابل‌ارتقا |
+|---|---:|
+| Member | 30 |
+| Neon | 40 |
+| Cyber | 50 |
+| Overdrive | 60 |
+| Singularity | 75 |
+| Sponsor | 90 |
 
-هر کیت شامل موارد زیر است:
-- Netherite Pickaxe با Fortune
-- Netherite Pickaxe جداگانه با Silk Touch
-- Netherite Axe
-- Netherite Shovel
-- Netherite Hoe
-- Shears
-- Fishing Rod
+علامت **[L]** در جدول‌های بعدی یعنی سطح همان رنک؛ برای نمونه، Sharpness [L] در Sponsor برابر Sharpness 90 و در Member برابر Sharpness 30 است.
 
-| رنک | Efficiency روی ابزارهای اصلی | Fortune روی کلنگ Fortune |
-|---|---:|---:|
-| Member | 30 | III |
-| Neon | 40 | IV |
-| Cyber | 50 | V |
-| Overdrive | 60 | VI |
-| Singularity | 75 | VII |
-| Sponsor | 90 | VIII |
+### زره
 
-برای کلنگ Silk Touch، انچنت Silk Touch جایگزین Fortune می‌شود. سطح‌های Efficiency بالاتر از V و Fortune بالاتر از III نیز نیازمند تست روش اعطای انچنت سفارشی هستند.
+| قطعه | تعداد در هر کیت | انچنت‌ها |
+|---|---:|---|
+| Helmet | 1 | Protection [L], Unbreaking [L], Respiration [L], Aqua Affinity I, Mending I |
+| Chestplate | 1 | Protection [L], Unbreaking [L], Thorns [L], Mending I |
+| Leggings | 1 | Protection [L], Unbreaking [L], Thorns [L], Swift Sneak [L], Mending I |
+| Boots | 1 | Protection [L], Unbreaking [L], Thorns [L], Feather Falling [L], Depth Strider [L], Soul Speed [L], Mending I |
+
+**نوع زره بر اساس رنک:**
+- Member، Neon، Cyber و Overdrive: یک ست کامل Netherite Armor.
+- Singularity و Sponsor: یک ست کامل Infinity Expansion Armor؛ نام دقیق چهار قطعه باید با نسخه نصب‌شده افزونه تطبیق داده شود.
+
+### سلاح‌ها
+
+| وسیله | تعداد در هر کیت | انچنت‌ها |
+|---|---:|---|
+| Netherite Sword | 1 | Sharpness [L], Looting [L], Fire Aspect [L], Knockback [L], Sweeping Edge [L], Unbreaking [L], Mending I |
+| Bow | 1 | Power [L], Punch [L], Flame I, Infinity I, Unbreaking [L] |
+| Crossbow | 1 | Quick Charge [L], Multishot I, Unbreaking [L], Mending I |
+| Trident — Loyalty | 1 | Impaling [L], Loyalty [L], Channeling I, Unbreaking [L], Mending I |
+| Trident — Riptide | 1 | Impaling [L], Riptide [L], Unbreaking [L], Mending I |
+
+**محدودیت ترکیب‌ها:** Riptide با Loyalty و Channeling روی یک ترایدنت جمع نمی‌شود؛ به همین دلیل دو ترایدنت جدا در کیت قرار می‌گیرد. Infinity و Mending نیز روی یک کمان با هم ترکیب نمی‌شوند؛ کمان این کیت Infinity I دارد.
+
+### ابزارها
+
+| وسیله | تعداد در هر کیت | انچنت‌ها |
+|---|---:|---|
+| Netherite Pickaxe — Fortune | 1 | Efficiency [L], Fortune [L], Unbreaking [L], Mending I |
+| Netherite Pickaxe — Silk Touch | 1 | Efficiency [L], Silk Touch I, Unbreaking [L], Mending I |
+| Netherite Axe | 1 | Efficiency [L], Sharpness [L], Unbreaking [L], Mending I |
+| Netherite Shovel | 1 | Efficiency [L], Unbreaking [L], Mending I |
+| Netherite Hoe | 1 | Efficiency [L], Fortune [L], Unbreaking [L], Mending I |
+| Shears | 1 | Efficiency [L], Unbreaking [L], Mending I |
+| Fishing Rod | 1 | Luck of the Sea [L], Lure [L], Unbreaking [L], Mending I |
+| Shield | 1 | Unbreaking [L], Mending I |
+| Elytra | طبق جدول سفر هر رنک | Unbreaking [L], Mending I |
+
+### انچنت‌های تک‌سطحی و محدودیت‌های فنی
+
+انچنت‌هایی که ذاتاً تک‌سطحی هستند، با سطح I باقی می‌مانند؛ نمونه‌ها: Mending، Silk Touch، Aqua Affinity، Flame، Infinity، Channeling، Multishot. سطح ۳۰ تا ۹۰ برای تمام انچنت‌های **دارای سطح قابل‌افزایش** روی همه وسایل اعمال می‌شود.
+
+این سطح‌های بسیار بالاتر از سقف عادی بازی هستند؛ تحویل آن‌ها نیازمند روش اعطای انچنت سفارشی سازگار با Minecraft Java 1.20.1 است. تا زمان تست، نباید فرض شود که هر پلاگین کیت یا هر فرمت آیتم آن‌ها را درست حفظ می‌کند. همچنین ترکیب‌های ناسازگار و انچنت‌های نامعتبر روی هر نوع وسیله باید در تست رد شوند.
 
 ## غذا و اقلام کاربردی
 
@@ -144,15 +171,13 @@
 | Tin Dust | 16 |
 | Redstone Alloy Ingot | 8 |
 
-## E. زره، ابزار، غذا و سفر
+## E. بسته کامل زره، سلاح، ابزار، غذا و سفر
 
-- Netherite Armor کامل با انچنت‌های بخش تجهیزات عمومی
-- دو Netherite Pickaxe: یکی Fortune III و یکی Silk Touch
-- Netherite Axe, Shovel, Hoe، Shears و Fishing Rod با Efficiency 30 روی ابزارهای قابل انچنت
+تمام زره، شمشیر، کمان، کراس‌بو و دو ترایدنت، دو کلنگ، ابزارها، سپر و انچنت‌هایشان مطابق بخش «زره، سلاح‌ها و ابزارهای کامل هر رنک» با سطح اختصاصی Member تحویل می‌شوند.
+
 - Cooked Beef ×64
 - Golden Apple ×8
 - Golden Carrot ×16
-- Shield ×1
 - Ender Pearl ×16
 - Water Bucket ×1
 - Firework Rocket ×16
@@ -229,16 +254,14 @@
 
 همراه با Iron Dust، Gold Dust، Copper Dust و Tin Dust، از هرکدام 32 عدد.
 
-## E. زره، ابزار، غذا و سفر
+## E. بسته کامل زره، سلاح، ابزار، غذا و سفر
 
-- Netherite Armor کامل با Protection V و Unbreaking IV و Mending
-- دو Netherite Pickaxe: Fortune IV و Silk Touch
-- Netherite Axe, Shovel, Hoe، Shears و Fishing Rod با Efficiency 40 روی ابزارهای قابل انچنت
+تمام زره، شمشیر، کمان، کراس‌بو و دو ترایدنت، دو کلنگ، ابزارها، سپر و انچنت‌هایشان مطابق بخش «زره، سلاح‌ها و ابزارهای کامل هر رنک» با سطح اختصاصی Neon تحویل می‌شوند.
+
 - Cooked Beef ×64
 - Golden Apple ×16
 - Enchanted Golden Apple ×1
 - Golden Carrot ×24
-- Shield ×1
 - Ender Pearl ×24
 - Water Bucket ×1
 - Firework Rocket ×32
@@ -338,16 +361,14 @@
 | Fast Ore Crusher | 1 |
 | Fast Grind Stone | 1 |
 
-## F. زره، ابزار، غذا و سفر
+## F. بسته کامل زره، سلاح، ابزار، غذا و سفر
 
-- Netherite Armor کامل با Protection VI و Unbreaking V و Mending
-- دو Netherite Pickaxe: Fortune V و Silk Touch
-- Netherite Axe, Shovel, Hoe، Shears و Fishing Rod با Efficiency 50 روی ابزارهای قابل انچنت
+تمام زره، شمشیر، کمان، کراس‌بو و دو ترایدنت، دو کلنگ، ابزارها، سپر و انچنت‌هایشان مطابق بخش «زره، سلاح‌ها و ابزارهای کامل هر رنک» با سطح اختصاصی Cyber تحویل می‌شوند.
+
 - Cooked Beef ×64
 - Golden Apple ×24
 - Enchanted Golden Apple ×2
 - Golden Carrot ×32
-- Shield ×1
 - Ender Pearl ×32
 - Water Bucket ×1
 - Firework Rocket ×64
@@ -448,16 +469,14 @@ Aluminum Brass, Aluminum Bronze, Billon, Brass, Bronze, Cobalt, Corinthian Bronz
 | Fast Smeltery | 1 |
 | Fast Ore Washer | 1 |
 
-## F. زره، ابزار، غذا و سفر
+## F. بسته کامل زره، سلاح، ابزار، غذا و سفر
 
-- Netherite Armor کامل با Protection VII و Unbreaking VI و Mending
-- دو Netherite Pickaxe: Fortune VI و Silk Touch
-- Netherite Axe, Shovel, Hoe، Shears و Fishing Rod با Efficiency 60 روی ابزارهای قابل انچنت
+تمام زره، شمشیر، کمان، کراس‌بو و دو ترایدنت، دو کلنگ، ابزارها، سپر و انچنت‌هایشان مطابق بخش «زره، سلاح‌ها و ابزارهای کامل هر رنک» با سطح اختصاصی Overdrive تحویل می‌شوند.
+
 - Cooked Beef ×64
 - Golden Apple ×32
 - Enchanted Golden Apple ×4
 - Golden Carrot ×48
-- Shield ×1
 - Ender Pearl ×48
 - Water Bucket ×1
 - Firework Rocket ×64
@@ -566,16 +585,14 @@ Aluminum Brass, Aluminum Bronze, Billon, Brass, Bronze, Cobalt, Corinthian Bronz
 | Fast Magic Workbench | 1 |
 | Fast Table Saw | 1 |
 
-## F. زره، ابزار، غذا و سفر
+## F. بسته کامل زره، سلاح، ابزار، غذا و سفر
 
-- Infinity Expansion Infinity Crown, Infinity Chestplate, Infinity Leggings و Infinity Boots با Protection VIII و Unbreaking VIII و Mending
-- دو Netherite Pickaxe: Fortune VII و Silk Touch
-- Netherite Axe, Shovel, Hoe، Shears و Fishing Rod با Efficiency 75 روی ابزارهای قابل انچنت
+تمام زره Infinity Expansion، شمشیر، کمان، کراس‌بو و دو ترایدنت، دو کلنگ، ابزارها، سپر و انچنت‌هایشان مطابق بخش «زره، سلاح‌ها و ابزارهای کامل هر رنک» با سطح اختصاصی Singularity تحویل می‌شوند.
+
 - Cooked Beef ×64
 - Golden Apple ×48
 - Enchanted Golden Apple ×8
 - Golden Carrot ×64
-- Shield ×1
 - Ender Pearl ×64
 - Water Bucket ×1
 - Firework Rocket ×128
@@ -728,21 +745,19 @@ Aluminum Brass, Aluminum Bronze, Billon, Brass, Bronze, Cobalt, Corinthian Bronz
 2. **Network Shulker** — ابزارهای تکمیلی شبکه و Radiant Backpack ×1. خود شالکر داخل Backpack قرار نمی‌گیرد.
 3. **Supreme / Infinity Shulker** — منابع و قطعات منتخب Infinity Expansion، بدون تکرار غیرضروری اقلامی که مستقیماً در کیت تحویل داده شده‌اند.
 
-## H. زره، ابزار، غذا و سفر
+## H. بسته کامل زره، سلاح، ابزار، غذا و سفر
 
-- Infinity Expansion Infinity Crown, Infinity Chestplate, Infinity Leggings و Infinity Boots با Protection IX و Unbreaking IX و Mending
-- دو Netherite Pickaxe: Fortune VIII و Silk Touch
-- Netherite Axe, Shovel, Hoe، Shears و Fishing Rod با Efficiency 90 روی ابزارهای قابل انچنت
+تمام زره Infinity Expansion، شمشیر، کمان، کراس‌بو و دو ترایدنت، دو کلنگ، ابزارها، سپر و انچنت‌هایشان مطابق بخش «زره، سلاح‌ها و ابزارهای کامل هر رنک» با سطح اختصاصی Sponsor تحویل می‌شوند.
+
 - Cooked Beef ×64
 - Golden Apple ×64
 - Enchanted Golden Apple ×16
 - Golden Carrot ×64
-- Shield ×1
 - Ender Pearl ×64
 - Water Bucket ×1
 - Firework Rocket ×192
 - Elytra ×2
-- Radiant Backpack ×1 (همچنین یک عدد داخل Network Shulker در صورت تأیید ظرفیت و جای‌گذاری)
+- Radiant Backpack ×1 (طبق قانون جای‌گذاری Network Shulker)
 
 ---
 
@@ -755,7 +770,8 @@ Aluminum Brass, Aluminum Bronze, Billon, Brass, Bronze, Cobalt, Corinthian Bronz
 - [ ] ماشین‌های چندسطحی Electric Gold Pan، Electric Dust Washer و Electric Ore Grinder با نام و سطح واقعی آیتم در نسخه منتخب جایگزین شوند.
 - [ ] نام دقیق هر 17 آلیاژ و 9 فلز پایه با راهنمای درون‌بازی نسخه انتخابی تطبیق داده شود.
 - [ ] آیتم‌های FastMachines و پنج ماشین اختیاری وابسته به افزونه‌های جانبی جداگانه تست شوند.
-- [ ] سطح انچنت‌های سفارشی 30 تا 90 و Protection بالاتر از سطح وانیلا در محیط تست بررسی شوند.
+- [ ] سطح‌های سفارشی 30، 40، 50، 60، 75 و 90 برای تمام انچنت‌های سطح‌دار روی زره، شمشیر، کمان، کراس‌بو، ترایدنت، ابزارها، سپر و Elytra در محیط تست بررسی شوند.
+- [ ] انچنت‌های تک‌سطحی مانند Mending، Silk Touch، Infinity، Flame، Channeling و Aqua Affinity در سطح I بمانند و ترکیب‌های ناسازگار مانند Riptide با Loyalty/Channeling رد شوند.
 - [ ] ظرفیت Backpack و سه شالکر Sponsor بررسی شود تا هیچ آیتمی به‌دلیل محدودیت خانه جا نماند.
 - [ ] کیت‌ها از نظر تعادل اقتصادی، ارزش فروش مجدد و امکان تکثیر آیتم تست شوند.
 
